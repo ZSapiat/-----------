@@ -1,0 +1,58 @@
+{
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  "workbench.editor.enablePreview": false,
+  "editor.minimap.enabled": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+  "liveServer.settings.CustomBrowser": "chrome",
+  "update.showReleaseNotes": false,
+  "editor.fontSize": 16,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "tabnine.experimentalAutoImports": true,
+  "files.autoSave": "onFocusChange",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "git.enableSmartCommit": true,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.formatOnSave": true,
+  "workbench.startupEditor": "none",
+  "liveSassCompile.settings.showOutputWindowOn": "None",
+
+  // .css и min.css файлы в отдельную директорию
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "~/../../css"
+    },
+    {
+      "extensionName": ".min.css",
+      "format": "compressed",
+      "savePath": "~/../../css"
+    }
+  ],
+
+  // исключения
+  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+
+  //автопрефиксы, -webkit- -moz-..
+  "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
+
+  "editor.inlineSuggest.showToolbar": "always",
+
+  "liveSassCompile.settings.includeItems": [],
+
+  // отключение .map файлов
+  "liveSassCompile.settings.generateMap": false,
+  "editor.wordWrap": "on",
+  "explorer.confirmDragAndDrop": false,
+  "editor.tabCompletion": "on",
+  "editor.renderWhitespace": "none",
+  "workbench.colorTheme": "Atom One Dark",
+  "editor.tabSize": 2,
+  "editor.lineHeight": 1.5,
+  "editor.stickyScroll.enabled": false,
+  "liveSassCompile.settings.forceBaseDirectory": ""
+}
